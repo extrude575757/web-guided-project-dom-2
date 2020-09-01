@@ -83,13 +83,14 @@ confirmButton.addEventListener("click", function (event) {
 
 // 👉 TASK 10- [STRETCH] Create helper functions
 function openModal() {
-
+  modal.classList.remove('off')
 }
 
 function closeModal() {
-
+  modal.classList.add('off')
 }
 
 function killReports() {
-
+  failureMessage.classList.add("off")
+  successMessage.classList.add("off")
 }
