@@ -77,7 +77,11 @@ document.addEventListener('keydown', function (event) {
 // It should console.log the target 🎯 of the event.
 // It should also console.log the CURRENT target 🧭 of the event.
 // Play with stopPropagation and stopImmediatePropagation.
-Array.from(document.all)
+Array.from(document.all).forEach(element => {
+  element.addEventListener('click', event => {
+    console.log('event target')
+  })
+})
 
 // 👉 TASK 8- Select a link and prevent its default behavior
 
