@@ -25,6 +25,9 @@ launchButton.addEventListener('click', function (event) {
 launchButton.addEventListener('click', function (event) {
   console.log('AGAIN using addEventListener')
 })
+document.addEventListener('click', function (event) {
+  console.log('clicking the document')
+})
 
 
 // 👉 TASK 3- Create a function that launches!
