@@ -32,7 +32,7 @@ document.addEventListener('click', function (event) {
     console.log('you clicked something else')
   }
 })
-document.links
+Array.from(document.links).forEach(function )
 
 // 👉 TASK 3- Create a function that launches!
 // It should open the confirmation modal.
