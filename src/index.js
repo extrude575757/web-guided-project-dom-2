@@ -22,6 +22,9 @@ launchButton.onclick = function (event) {
 launchButton.addEventListener('click', function (event) {
   console.log('using addEventListener')
 })
+launchButton.addEventListener('click', function (event) {
+  console.log('AGAIN using addEventListener')
+})
 
 
 // 👉 TASK 3- Create a function that launches!
