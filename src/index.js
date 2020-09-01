@@ -44,9 +44,8 @@ Array.from(document.links).forEach(function (link) {
 // Add it as an event listener for click events on the launch button.
 launchButton.addEventListener('click', function (event) {
   // absolute power over the entire DOM
-  modal.classList.remove('off')
-  failureMessage.classList.add("off")
-  successMessage.classList.add("off")
+  openModal()
+  killReports()
 })
 
 // 👉 TASK 4- Create a function to confirm the launch.
