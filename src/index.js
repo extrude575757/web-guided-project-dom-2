@@ -34,7 +34,7 @@ document.addEventListener('click', function (event) {
 })
 Array.from(document.links).forEach(function (link) {
   link.addEventListener('click', function (event) {
-    
+    event.preventDefault()
   })
 })
 
