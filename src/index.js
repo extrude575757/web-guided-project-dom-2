@@ -10,7 +10,7 @@ const cancelButton = document.querySelector('#cancelButton')
 const successMessage = document.querySelector('.report.success')
 const failureMessage = document.querySelector('.report.failure')
 // MODAL
-const modal = document.querySelector('modal')
+const modal = document.querySelector('.modal')
 
 debugger
 
