@@ -16,11 +16,11 @@ const modal = document.querySelector('.modal')
 //      - HTML
 //      - The DOM's element.onclick
 launchButton.onclick = function (event) {
-  console.log('about to smash the old school')
+  console.log('setting the onclick property of the element')
 }
 //      - element.addEventListener()
 launchButton.addEventListener('click', function (event) {
-  console.log('the better way to add future functionality')
+  console.log('using addEventListener')
 })
 
 
