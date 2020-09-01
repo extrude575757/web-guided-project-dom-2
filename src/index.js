@@ -12,8 +12,6 @@ const failureMessage = document.querySelector('.report.failure')
 // MODAL
 const modal = document.querySelector('.modal')
 
-debugger
-
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
 //      - HTML
 //      - The DOM's element.onclick
