@@ -82,6 +82,7 @@ Array.from(document.all).forEach(element => {
     // console.log('🎯 event target  ', event.target)
     console.log('🧭 current target', event.currentTarget)
     console.log('\n')
+    event.stopPropagation()
   })
 })
 
