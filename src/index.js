@@ -26,11 +26,11 @@ launchButton.addEventListener('click', function (event) {
   // console.log('AGAIN using addEventListener')
 })
 document.addEventListener('click', function (event) {
-  if (event.target === launchButton) {
-    console.log('you clicked launch')
-  } else {
-    console.log('you clicked something else')
-  }
+  // if (event.target === launchButton) {
+  //   console.log('you clicked launch')
+  // } else {
+  //   console.log('you clicked something else')
+  // }
 })
 Array.from(document.links).forEach(function (link) {
   link.addEventListener('click', function (event) {
@@ -81,7 +81,7 @@ Array.from(document.all).forEach(element => {
   element.addEventListener('click', event => {
     console.log('🎯 event target  ', event.target)
     console.log('🧭 current target', event.currentTarget)
-    console.log('/n')
+    console.log('\n')
   })
 })
 
