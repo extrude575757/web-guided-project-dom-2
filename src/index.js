@@ -26,9 +26,10 @@ launchButton.addEventListener('click', function (event) {
   // console.log('AGAIN using addEventListener')
 })
 document.addEventListener('click', function (event) {
-  console.log('clicking the document')
   if (event.target === launchButton) {
     console.log('you clicked launch')
+  } else {
+    console.log('you clicked something else')
   }
 })
 
