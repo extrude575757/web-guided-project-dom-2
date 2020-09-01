@@ -1,4 +1,4 @@
-console.log('project is up')
+// console.log('project is up')
 
 // 👉 TASK 1- Select the following elements from the DOM:
 
@@ -16,14 +16,14 @@ const modal = document.querySelector('.modal')
 //      - HTML
 //      - The DOM's element.onclick
 launchButton.onclick = function (event) {
-  console.log('setting the onclick property of the element')
+  // console.log('setting the onclick property of the element')
 }
 //      - element.addEventListener()
 launchButton.addEventListener('click', function (event) {
-  console.log('using addEventListener')
+  // console.log('using addEventListener')
 })
 launchButton.addEventListener('click', function (event) {
-  console.log('AGAIN using addEventListener')
+  // console.log('AGAIN using addEventListener')
 })
 document.addEventListener('click', function (event) {
   console.log('clicking the document')
