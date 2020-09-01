@@ -68,7 +68,8 @@ cancelButton.addEventListener('click', function (event){
 // the user hits the Escape key on their keyboard.
 // Add it as an event listener for 'keydown' events on document.
 document.addEventListener('keydown', function (event) {
-  
+  debugger
+  // if the event object contains the key 'escape' kill modal
 })
 
 // 👉 TASK 7- Add to ALL ELEMENTS ON THE PAGE an event listener for click events.
