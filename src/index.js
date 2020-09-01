@@ -59,7 +59,7 @@ confirmButton.addEventListener("click", function (event) {
 // 👉 TASK 5- Create a function to cancel the launch.
 // It should close the modal and display a failure report.
 // Add it as a listener for clicks on the cancellation button.
-cancelButton.addEventListener('click', function (event){
+cancelButton.addEventListener('click', function (event) {
   closeModal()
   failureMessage.classList.remove('off')
 })
@@ -68,7 +68,9 @@ cancelButton.addEventListener('click', function (event){
 // the user hits the Escape key on their keyboard.
 // Add it as an event listener for 'keydown' events on document.
 document.addEventListener('keydown', function (event) {
-  // if the event object contains the key 'escape' kill modal
+  if (event.key === 'Escape') {
+    modal.classList.add('off')
+  }
 })
 
 // 👉 TASK 7- Add to ALL ELEMENTS ON THE PAGE an event listener for click events.
